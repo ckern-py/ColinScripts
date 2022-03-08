@@ -11,7 +11,7 @@ Python was one of the first programming languages that I learned. I still occasi
 
 <u>[Utility](https://github.com/ckern-py/ColinScripts/tree/main/Python/Utility)</u> - These scripts are all based around functionality and being able to do repetitive tasks quickly and with ease. Most of these are scripts you would use on your personal computer to make tasks easier. 
 
-<u>[Raspberry Pi](https://github.com/ckern-py/ColinScripts/tree/main/Python/Raspberry%20Pi)</u> - These scripts are all ones that I run on my Raspberry Pi. I have cron jobs set up to execute them regularly, and notify me via email is something is not correct 
+<u>[Raspberry Pi](https://github.com/ckern-py/ColinScripts/tree/main/Python/Raspberry%20Pi)</u> - These scripts are all ones that I run on my Raspberry Pi. I have cron jobs set up to execute them regularly, and notify me via email is something is not correct.
 
 ## **AutoHotKey** 
 All my AutoHotKey scripts come from when I was working on the IT Service Desk. AutoHotKey was one of the few approved scripting languages for us to use. So, we made due with what we had. 
