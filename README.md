@@ -13,13 +13,16 @@ Python was one of the first programming languages that I learned. I still occasi
 
 <u>[Raspberry Pi](https://github.com/ckern-py/ColinScripts/tree/main/Python/Raspberry%20Pi)</u> - These scripts are all ones that I run on my Raspberry Pi. I have cron jobs set up to execute them regularly, and notify me via email is something is not correct.
 
+## **Bash**
+Bash is the most recent scripting language that I have learned. I started learning bash after I set up a Ubuntu server in my apartment. All the Bash scripts here are onces that I run on my home Linux server. They are run regularly using crontab.
+
 ## **AutoHotKey** 
 All my AutoHotKey scripts come from when I was working on the IT Service Desk. AutoHotKey was one of the few approved scripting languages for us to use. So, we made due with what we had. 
 
 <u>[IT Service Desk](https://github.com/ckern-py/ColinScripts/tree/main/AutoHotKey/IT%20Service%20Desk)</u> - The main script here is the ITSDUtil. A friend and I were able to build a toolbar for everyone on the IT Service Desk to use. This toolbar provided most of the information you regularly need, right at your finger tips. Everything from finding solutions to common problems, to unlocking accounts and changing passwords. Making all this information easily available helped to reduce call times and improve productivity across the IT Service Desk.
 
 ## **Powershell** 
-All of my Powershell scripts here also come from when I was working on the IT Service Desk. Most of the scrips here either interacted with the ITSTUtil.ahk or have a utility use.
+Most of my Powershell scripts here also come from when I was working on the IT Service Desk. Most of the scrips here either interacted with the ITSTUtil.ahk or have a utility use.
 
 <u>[IT Service Desk](https://github.com/ckern-py/ColinScripts/tree/main/Powershell/IT%20Service%20Desk)</u> - Many of the Powershell scripts here interacted with our ITSDUtil toolbar. They allowed the ITSDUtil to seamlessly interact with Active Directory. It allowed the IT Service Desk to check if a given account was valid. If the account was valid then it would provide all the basic information like the current state of the account and when the password was last changed. These scripts also made it easy to change an account password, no matter what domain it was on. Some of these scrips could even be executed on a machine to help solve issues, such as repairing Office or removing keys from Credential Manager.
 
