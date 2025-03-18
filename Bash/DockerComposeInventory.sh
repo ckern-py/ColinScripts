@@ -7,7 +7,7 @@ echo "$todaydate $(date +%T) Taking Docker compose inventory" >> "$backuplog"
 
 for file in /central/location/docker/*/docker-compose.yml
 do
-    new_file=${file#/central/docker/};
+    new_file=${file#/central/location/docker/};
     final_location="/central/location/inventory/Docker/${new_file/\//_}"
     echo "Copying $file to $final_location" >> "$backuplog"
 
