@@ -14,9 +14,12 @@ eyed3.log.setLevel("ERROR")
 
 #FLAC metadata changer##
 curAlbum = "Bassnectar - Unlimited [2016]"
-special = "\\Unlimited [2016] [FLAC]"
+special = "Unlimited [2016] [FLAC]"
 musicType = 'Electronic'
-os.chdir('C:\\Users\\Music\\Albums\\' + curAlbum + special)
+if os.name == "posix":
+    os.chdir('/Users/Music/Albums/' + curAlbum + '/' + special)
+else:
+    os.chdir('C:\\Users\\Music\\Albums\\' + curAlbum + '\\' + special)
 totalTracks = 0
 for flac_files in os.listdir('.'):
     if fnmatch.fnmatch(flac_files, '*.flac'):
